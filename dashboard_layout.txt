@@ -1,0 +1,23 @@
+====================================================================
+MAINCRAFTS TECHNOLOGY INTERNSHIP - TASK 1 POWER BI DASHBOARD LAYOUT
+====================================================================
+Data Source Linked: cleaned_sales_data.xlsx
+
+[VISUAL CANVAS ARCHITECTURE]
+
+1. ROW 1: EXECUTIVE KEY PERFORMANCE INDICATORS (KPI CARDS)
+   - Card A: Total Revenue -> Expression: SUM(sales) [Result: $6,980.50]
+   - Card B: Total Profits -> Expression: SUM(profit) [Result: $913.10]
+   - Card C: Total Volume  -> Expression: SUM(quantity) [Result: 33 units]
+
+2. ROW 2: GEOGRAPHIC & CATEGORICAL BREAKDOWNS
+   - Left Visual: Bar Chart (X-Axis: Region, Y-Axis: Total Sales)
+   - Right Visual: Donut/Pie Chart (Values: Profit, Legend: Category)
+
+3. ROW 3: TEMPORAL TRENDS & OPERATIONAL ANALYSIS
+   - Line Chart: Chronological Sales Movement (Axis: Order Date by Month, Values: Sales)
+   - Data Matrix: Top Customers by Profitability (Columns: Customer Name, Sales, Profit)
+
+4. INTERACTIVE SLICERS (FILTERS)
+   - Slicer 1: Dropdown selection for [Region] (West, East, Central, South)
+   - Slicer 2: Radio buttons for [Product Category]

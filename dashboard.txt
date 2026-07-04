@@ -1,0 +1,35 @@
+========================================================================
+TASK 2: INTERACTIVE BI DASHBOARD WIREFRAME SPECIFICATION
+========================================================================
+
+[TOP HEADER ROW: INTERACTIVE SLICERS / FILTERS]
++-------------------+-------------------+-------------------+-------------------+
+|  Slicer: Region   | Slicer: Category  |   Slicer: Date    |  Slicer: Segment  |
++-------------------+-------------------+-------------------+-------------------+
+
+[ROW 1: HIGH-LEVEL EXECUTIVE BUSINESS KPI CARDS]
++-------------------+-------------------+-------------------+-------------------+
+|    TOTAL SALES    |   TOTAL PROFIT    |   PROFIT MARGIN   |  TOTAL CUSTOMERS  |
+|     $7,260.00     |     $919.00       |      12.66%       |         5         |
++-------------------+-------------------+-------------------+-------------------+
+
+[ROW 2: VISUAL ANALYTICAL DISTRIBUTIONS]
++---------------------------------------+---------------------------------------+
+| VISUAL A: Regional Sales (Bar Chart)   | VISUAL B: Category Margin (Column)    |
+| * West: $2,295.00                     | * Technology: 24.7% Margin            |
+| * Central: $3,250.00                  | * Office Supplies: 30.6% Margin       |
+| * East: $480.00                       | * Furniture: -0.8% Margin (Loss)      |
++---------------------------------------+---------------------------------------+
+
+[ROW 3: TREND ANALYSIS & PERFORMANCE SEGMENTATION]
++---------------------------------------+---------------------------------------+
+| VISUAL C: Monthly Trend (Line Chart)  | VISUAL D: Segment Sales (Pie Chart)   |
+| * May Volume Baseline                 | * Corporate Segment                   |
+| * June Target Spikes                  | * Consumer Segment                    |
++---------------------------------------+---------------------------------------+
+
+[ROW 4: DETAILED DATA TABLE]
+| Top Customer Name   | Total Revenue Generates ($) | Customer Segment |
+|---------------------|-----------------------------|------------------|
+| Diana Prince        | $3,250.00                   | Corporate        |
+| Alice Johnson       | $1,545.00                   | Corporate        |
